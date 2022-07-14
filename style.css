@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background: url(img/img/fondo1.jpg);
+  background-size: cover;
+  font-family: 'carter one', Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+header {
+  background: rgba(117, 66, 38, 0.785);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;}
+
+h1 {
+  margin: 0;
+  color: white;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  gap: 30px;
+}
+
+#imagen {
+  width: 200px;
+}
+
+#palabra_a_adivinar {
+  height: 3em;
+}
+
+#palabra_a_adivinar span {
+  vertical-align: bottom;
+  font-size: 2em;
+  border-bottom: 2px solid #68422a;
+  width: 30px;
+  text-align: center;
+  margin-right: 6px;
+  display: inline-block; /*sin esto,por ser un elemento de line, no tomaria el width*/
+}
+
+#letras {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+#letras button {
+  width: 28px;
+  padding: 6px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(245, 213, 233, 0.441);
+  text-align: center;
+  line-height: 3px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color:rgb(152, 120, 227);
+  display: inline;
+}
+
+footer a:hover {
+  text-shadow: 5px 5px 5px #1d1b1d;
+}
+
+footer p {
+  color: #2c2a2a;
+}
